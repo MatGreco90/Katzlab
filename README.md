@@ -6,6 +6,7 @@
 * Deploy_silva_assign.R: this script is needed to deploy the function Silva 16S assign on multiple fasta files allowing to control file names
 * fasta2csv.R: this function takes a fasta file as input and returns a table in csv format
 * Deploy_fasta2csv.R:this script is needed to deploy the function fasta2csv on multiple fasta files allowing to control file names
+* get_mono_clades.r: this function takes a newick tree as input and extracts the main monophyletic clades producing a summary table
 
 ## Author
 Mattia Greco (mattia_greco@outlook.com)
