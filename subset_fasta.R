@@ -1,3 +1,6 @@
+#uses a fasta file to subset as input 
+#modify path at line 10 to txt file with sequence ID list
+
 library(Biostrings)
 library(tidyverse)
 library(DECIPHER)
