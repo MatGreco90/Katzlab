@@ -4,7 +4,7 @@ library(DECIPHER)
 
 subset_fasta<- function(x) {
   
-  list_seqs_file<-read_table('list_seq_to_grepl.txt',col_names = FALSE) %>% #change path to file with list of sequences to subset
+  list_seqs_file<-read_table('list_seq_to_grepl.txt',col_names = FALSE) %>% #change path to file with list of sequences ID to subset
     mutate(X1=ifelse(grepl('>',X1),gsub('>','',X1),X1))
   
   dna <- readDNAStringSet(x)
