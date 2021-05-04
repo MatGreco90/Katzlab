@@ -9,6 +9,7 @@
 * Deploy_fasta2csv.R:this script is needed to deploy the function fasta2csv on multiple fasta files allowing to control file names
 * get_mono_clades.r: this function takes a newick tree as input and extracts the main monophyletic clades producing a summary table
 * fetch_fastq.sh: this script automatically downloads fastq files from GenBank using SRA Run ID as input
+* subset_fasta.r: this function subsets a fasta file when a list of sequence name is given as input
 
 ## Author
 Mattia Greco (mattia_greco@outlook.com)
